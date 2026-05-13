@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_flutter/view/color/colorpallet.dart';
-import 'package:project_flutter/view/student/announcement.dart';
-import 'package:project_flutter/view/student/studentbottomnav.dart';
-import 'package:project_flutter/view/widget/teacheraccess.dart';
+// import 'package:project_flutter/view/student/announcement.dart';
+// import 'package:project_flutter/view/student/studentbottomnav.dart';
+// import 'package:project_flutter/view/widget/teacheraccess.dart';
+import 'package:project_flutter/view/widget/teacheruploadnotes.dart';
 void main() {
   runApp(MainApp());
 }
@@ -18,7 +19,7 @@ class MainApp extends StatelessWidget {
 
       theme: AppTheme.lightTheme,
 
-      home: Teacheraccess()
+      home: Teacheruploadnotes()
     );
   }
 }
